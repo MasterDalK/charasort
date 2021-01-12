@@ -187,7 +187,7 @@ dataSet[dataSetVersion].characterData = [
    img: "miho_victory.png",
    opts: {
      team: [ "anglerfish"],
-     school: [ "ooaraischool"]]
+     school: [ "ooaraischool"]
    }
  },
  {
@@ -195,7 +195,7 @@ dataSet[dataSetVersion].characterData = [
    img: "Saoriofficial.png",
    opts: {
      team: [ "anglerfish"],
-     school: [ "ooaraischool"]]
+     school: [ "ooaraischool"]
    }
  },
  {
@@ -203,7 +203,7 @@ dataSet[dataSetVersion].characterData = [
    img: "Hanaofficial.png",
    opts: {
      team: [ "anglerfish"],
-     school: [ "ooaraischool"]]
+     school: [ "ooaraischool"]
    }
  },
  {
@@ -211,7 +211,7 @@ dataSet[dataSetVersion].characterData = [
    img: "Yukariofficial.png",
    opts: {
      team: [ "anglerfish"],
-     school: [ "ooaraischool"]]
+     school: [ "ooaraischool"]
    }
  },
  {
@@ -219,7 +219,7 @@ dataSet[dataSetVersion].characterData = [
    img: "Makoofficial.png",
    opts: {
      team: [ "anglerfish"],
-     school: [ "ooaraischool"]]
+     school: [ "ooaraischool"]
    }
  },
  {
@@ -227,7 +227,7 @@ dataSet[dataSetVersion].characterData = [
    img: "AnzuOfficial.png",
    opts: {
      team: [ "turtle"],
-     school: [ "ooaraischool"]]
+     school: [ "ooaraischool"]
    }
  },
  {
@@ -235,7 +235,7 @@ dataSet[dataSetVersion].characterData = [
    img: "Momoofficial.png",
    opts: {
      team: [ "turtle"],
-     school: [ "ooaraischool"]]
+     school: [ "ooaraischool"]
    }
  },
  {
@@ -243,7 +243,7 @@ dataSet[dataSetVersion].characterData = [
    img: "Yuzuofficial.png",
    opts: {
      team: [ "turtle"],
-     school: [ "ooaraischool"]]
+     school: [ "ooaraischool"]
   }
  },
  {
@@ -251,7 +251,7 @@ dataSet[dataSetVersion].characterData = [
    img: "Erwinofficial.png",
    opts: {
      team: [ "hippo"],
-     school: [ "ooaraischool"]]
+     school: [ "ooaraischool"]
   }
  },
  {
@@ -259,7 +259,7 @@ dataSet[dataSetVersion].characterData = [
    img: "Caesarofficial.png",
    opts: {
      team: [ "hippo"],
-     school: [ "ooaraischool"]]
+     school: [ "ooaraischool"]
   }
  },
  {
@@ -267,7 +267,7 @@ dataSet[dataSetVersion].characterData = [
    img: "Saemonzaofficial.png",
    opts: {
      team: [ "hippo"],
-     school: [ "ooaraischool"]]
+     school: [ "ooaraischool"]
   }
  },
  {
@@ -275,7 +275,7 @@ dataSet[dataSetVersion].characterData = [
    img: "Oryouofficial.png",
    opts: {
      team: [ "hippo"],
-     school: [ "ooaraischool"]]
+     school: [ "ooaraischool"]
   }
  },
  {
@@ -283,7 +283,7 @@ dataSet[dataSetVersion].characterData = [
    img: "Azusaofficial.png",
    opts: {
      team: [ "rabbit"],
-     school: [ "ooaraischool"]]
+     school: [ "ooaraischool"]
   }
  },
  {
@@ -291,7 +291,7 @@ dataSet[dataSetVersion].characterData = [
    img: "Ayumiofficial.png",
    opts: {
      team: [ "rabbit"],
-     school: [ "ooaraischool"]]
+     school: [ "ooaraischool"]
   }
  },
  {
@@ -299,7 +299,7 @@ dataSet[dataSetVersion].characterData = [
    img: "Ayaofficial.png",
    opts: {
      team: [ "rabbit"],
-     school: [ "ooaraischool"]]
+     school: [ "ooaraischool"]
   }
  },
  {
@@ -307,7 +307,7 @@ dataSet[dataSetVersion].characterData = [
    img: "Yuukiofficial.png",
    opts: {
      team: [ "rabbit"],
-     school: [ "ooaraischool"]]
+     school: [ "ooaraischool"]
   }
  },
  {
@@ -315,14 +315,14 @@ dataSet[dataSetVersion].characterData = [
    img: "Karinaofficial.png",
    opts: {
      team: [ "rabbit"],
-     school: [ "ooaraischool"]]
+     school: [ "ooaraischool"]
   }
  },
  {
    name: "Saki Maruyama",
    img: "Sakiofficial.png",
    opts: {
-     team: [ "rabbit",
+     team: [ "rabbit"],
      school: [ "ooaraischool"]
   }
  },
