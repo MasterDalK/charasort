@@ -183,7 +183,7 @@ dataSet[dataSetVersion].options = [
 dataSet[dataSetVersion].characterData = [
  {
    name: "Miho Nishizumi",
-   img: "miho_victory.png",
+   img: "Miho_Victory.png",
    opts: {
      team: [ "anglerfish"],
      school: [ "ooaraischool"]
@@ -799,7 +799,7 @@ dataSet[dataSetVersion].characterData = [
  },
  {
    name: "Kubota",
-   img: "Micahofficial.png",
+   img: "Kubota.png",
    opts: {
      team: [ "chihatan"],
      school: [ "chihatanschool"]
@@ -807,7 +807,7 @@ dataSet[dataSetVersion].characterData = [
  },
  {
    name: "Nishihara",
-   img: "",
+   img: "Nishihara.png",
    opts: {
      team: [ "chihatan"],
      school: [ "chihatanschool"]
@@ -815,7 +815,7 @@ dataSet[dataSetVersion].characterData = [
  },
  {
    name: "Mika",
-   img: "",
+   img: "Micahofficial.png",
    opts: {
      team: [ "finland"],
      school: [ "finlandschool"]
@@ -927,7 +927,7 @@ dataSet[dataSetVersion].characterData = [
  },
  {
    name: "Takami",
-   img: "",
+   img: "Takami.png",
    opts: {
      team: [ "bellwall"],
      school: [ "bellwallschool"]
@@ -991,7 +991,7 @@ dataSet[dataSetVersion].characterData = [
  },
  {
    name: "Haruka Endou",
-   img: "",
+   img: "harukaendou.png",
    opts: {
      team: [ "tatenashi"],
      school: [ "tatenashischool"]
