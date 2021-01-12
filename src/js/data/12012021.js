@@ -181,7 +181,6 @@ dataSet[dataSetVersion].options = [
 ];
 
 dataSet[dataSetVersion].characterData = [
-  [
  {
    name: "Miho Nishizumi",
    img: "miho_victory.png",
@@ -1065,7 +1064,7 @@ dataSet[dataSetVersion].characterData = [
  {
    name: "Galette",
    img: "Galette.png",
-   team: [ "maginot",
+   team: [ "maginot"],
    school: [ "maginotschool"]
  },
  {
@@ -1204,5 +1203,4 @@ dataSet[dataSetVersion].characterData = [
      school: [ ""]
    }
  }
-]
 ];
