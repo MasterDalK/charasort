@@ -383,7 +383,7 @@ dataSet[dataSetVersion].characterData = [
  },
  {
    name: "Satoko Nakajima",
-   img: "Nakajimaofficial",
+   img: "Nakajimaofficial.png",
    opts: {
      team: [ "leopon"],
      school: [ "ooaraischool"]
@@ -735,7 +735,7 @@ dataSet[dataSetVersion].characterData = [
  },
  {
    name: "Kinuyo Nishi",
-   img: "Nishi,png",
+   img: "Nishi.png",
    opts: {
      team: [ "chihatan"],
      school: [ "chihatanschool"]
