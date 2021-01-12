@@ -991,7 +991,7 @@ dataSet[dataSetVersion].characterData = [
  },
  {
    name: "Haruka Endou",
-   img: "harukaendou.png",
+   img: "Harukaendou.png",
    opts: {
      team: [ "tatenashi"],
      school: [ "tatenashischool"]
