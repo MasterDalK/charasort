@@ -225,6 +225,9 @@ label:hover {
 
 .result.image img {
   height: 160px;
+  width: 160px;
+  object-fit: cover;
+  object-position: top;
 }
 
 .result.spacer {
