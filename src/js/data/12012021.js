@@ -5,8 +5,7 @@ dataSet[dataSetVersion].options = [
   {
     name: "Remove non main cast",
     key: "pleb",
-    tooltip: "This adds manga & OVA specific characters that aren't as well known.",
-    checked: true
+    tooltip: "This adds manga & OVA specific characters that aren't as well known."
   },
   {
     name: "Filter by Team",
