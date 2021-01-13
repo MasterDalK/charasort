@@ -3,9 +3,9 @@ dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
   {
-    name: "Main Cast Only",
+    name: "Add non main cast",
     key: "pleb",
-    tooltip: "This removes manga & OVA specific characters that aren't as well known.",
+    tooltip: "This adds manga & OVA specific characters that aren't as well known.",
     checked: true
   },
   {
@@ -496,7 +496,8 @@ dataSet[dataSetVersion].characterData = [
    img: "Sadoka1.png",
    opts: {
      team: [ ""],
-     school: [ "ooaraischool"]
+     school: [ "ooaraischool"],
+     pleb: true
   }
  },
  {
@@ -504,7 +505,8 @@ dataSet[dataSetVersion].characterData = [
    img: "Mazoe.png",
    opts: {
      team: [ ""],
-     school: [ "ooaraischool"]
+     school: [ "ooaraischool"],
+     pleb: true
   }
  },
  {
@@ -560,7 +562,8 @@ dataSet[dataSetVersion].characterData = [
    img: "Earl_Grey.png",
    opts: {
      team: [ "gloriana"],
-     school: [ "glorianaschool"]
+     school: [ "glorianaschool"],
+     pleb: true
    }
  },
  {
@@ -592,7 +595,8 @@ dataSet[dataSetVersion].characterData = [
    img: "Helmet_Chan_Portrait.png",
    opts: {
      team: [ "saunders"],
-     school: [ "saundersschool"]
+     school: [ "saundersschool"],
+     pleb: true
    }
  },
  {
@@ -624,7 +628,8 @@ dataSet[dataSetVersion].characterData = [
    img: "Siko_Profile.png",
    opts: {
      team: [ "anzio"],
-     school: [ "anzioschool"]
+     school: [ "anzioschool"],
+     pleb: true
    }
  },
  {
@@ -696,7 +701,8 @@ dataSet[dataSetVersion].characterData = [
    img: "EmiKojima.png",
    opts: {
      team: [ "kuromormine"],
-     school: [ "kuromormineschool"]
+     school: [ "kuromormineschool"],
+     pleb: true
    }
  },
  {
@@ -704,7 +710,8 @@ dataSet[dataSetVersion].characterData = [
    img: "Panther_Commander_Portrait_HD.png",
    opts: {
      team: [ "kuromormine"],
-     school: [ "kuromormineschool"]
+     school: [ "kuromormineschool"],
+     pleb: true
    }
  },
  {
@@ -712,7 +719,8 @@ dataSet[dataSetVersion].characterData = [
    img: "Panzer_III_Commander.png",
    opts: {
      team: [ "kuromormine"],
-     school: [ "kuromormineschool"]
+     school: [ "kuromormineschool"],
+     pleb: true
    }
  },
  {
@@ -720,7 +728,8 @@ dataSet[dataSetVersion].characterData = [
    img: "Maus_Commander_Portrait-0.png",
    opts: {
      team: [ "kuromormine"],
-     school: [ "kuromormineschool"]
+     school: [ "kuromormineschool"],
+     pleb: true
    }
  },
  {
@@ -728,7 +737,8 @@ dataSet[dataSetVersion].characterData = [
    img: "Leila_Rou.png",
    opts: {
      team: [ "kuromormine"],
-     school: [ "kuromormineschool"]
+     school: [ "kuromormineschool"],
+     pleb: true
    }
  },
  {
@@ -736,7 +746,8 @@ dataSet[dataSetVersion].characterData = [
    img: "Sheska_Profile.png",
    opts: {
      team: [ "kuromormine"],
-     school: [ "kuromormineschool"]
+     school: [ "kuromormineschool"],
+     pleb: true
    }
  },
  {
@@ -904,7 +915,8 @@ dataSet[dataSetVersion].characterData = [
    img: "Asparagus-0.png",
    opts: {
      team: [ "bcfreedom"],
-     school: [ "bcfreedomschool"]
+     school: [ "bcfreedomschool"],
+     pleb: true
    }
  },
  {
@@ -912,7 +924,8 @@ dataSet[dataSetVersion].characterData = [
    img: "Emi_Nagasuka_Profile_Mk_2.png",
    opts: {
      team: [ "bellwall"],
-     school: [ "bellwallschool"]
+     school: [ "bellwallschool"],
+     pleb: true
    }
  },
  {
@@ -920,7 +933,8 @@ dataSet[dataSetVersion].characterData = [
    img: "Hitomi_Yuzumoto_Profile.png",
    opts: {
      team: [ "bellwall"],
-     school: [ "bellwallschool"]
+     school: [ "bellwallschool"],
+     pleb: true
    }
  },
  {
@@ -928,7 +942,8 @@ dataSet[dataSetVersion].characterData = [
    img: "Kita_Color.png",
    opts: {
      team: [ "bellwall"],
-     school: [ "bellwallschool"]
+     school: [ "bellwallschool"],
+     pleb: true
    }
  },
  {
@@ -936,7 +951,8 @@ dataSet[dataSetVersion].characterData = [
    img: "Takami.png",
    opts: {
      team: [ "bellwall"],
-     school: [ "bellwallschool"]
+     school: [ "bellwallschool"],
+     pleb: true
    }
  },
  {
@@ -944,7 +960,8 @@ dataSet[dataSetVersion].characterData = [
    img: "Nagisa_Shiratori_Color.png",
    opts: {
      team: [ "bellwall"],
-     school: [ "bellwallschool"]
+     school: [ "bellwallschool"],
+     pleb: true
    }
  },
  {
@@ -952,7 +969,8 @@ dataSet[dataSetVersion].characterData = [
    img: "Neko_Yamamori_Profile.png",
    opts: {
      team: [ "bellwall"],
-     school: [ "bellwallschool"]
+     school: [ "bellwallschool"],
+     pleb: true
    }
  },
  {
@@ -960,7 +978,8 @@ dataSet[dataSetVersion].characterData = [
    img: "Doi_Chifuyu_Profile.png",
    opts: {
      team: [ "bellwall"],
-     school: [ "bellwallschool"]
+     school: [ "bellwallschool"],
+     pleb: true
    }
  },
  {
@@ -968,7 +987,8 @@ dataSet[dataSetVersion].characterData = [
    img: "Youkuo-minami.png",
    opts: {
      team: [ "bellwall"],
-     school: [ "bellwallschool"]
+     school: [ "bellwallschool"],
+     pleb: true
    }
  },
  {
@@ -976,7 +996,8 @@ dataSet[dataSetVersion].characterData = [
    img: "Kawashiba_Sisters_Profile.png",
    opts: {
      team: [ "bellwall"],
-     school: [ "bellwallschool"]
+     school: [ "bellwallschool"],
+     pleb: true
    }
  },
  {
@@ -984,7 +1005,8 @@ dataSet[dataSetVersion].characterData = [
    img: "Shizuka1.png",
    opts: {
      team: [ "tatenashi"],
-     school: [ "tatenashischool"]
+     school: [ "tatenashischool"],
+     pleb: true
    }
  },
  {
@@ -992,7 +1014,8 @@ dataSet[dataSetVersion].characterData = [
    img: "Rin.png",
    opts: {
      team: [ "tatenashi"],
-     school: [ "tatenashischool"]
+     school: [ "tatenashischool"],
+     pleb: true
    }
  },
  {
@@ -1008,7 +1031,8 @@ dataSet[dataSetVersion].characterData = [
    img: "NoemiTranspColored.png",
    opts: {
      team: [ "count"],
-     school: [ "countschool"]
+     school: [ "countschool"],
+     pleb: true
    }
  },
  {
@@ -1016,7 +1040,8 @@ dataSet[dataSetVersion].characterData = [
    img: "AnnaTrans.png",
    opts: {
      team: [ "count"],
-     school: [ "countschool"]
+     school: [ "countschool"],
+     pleb: true
    }
  },
  {
@@ -1024,7 +1049,8 @@ dataSet[dataSetVersion].characterData = [
    img: "NachigamiTwins.png",
    opts: {
      team: [ "count"],
-     school: [ "countschool"]
+     school: [ "countschool"],
+     pleb: true
    }
  },
  {
@@ -1032,7 +1058,8 @@ dataSet[dataSetVersion].characterData = [
    img: "MarinaConstantinescu.png",
    opts: {
      team: [ "count"],
-     school: [ "countschool"]
+     school: [ "countschool"],
+     pleb: true
    }
  },
  {
@@ -1040,7 +1067,8 @@ dataSet[dataSetVersion].characterData = [
    img: "MizukiTrans.png",
    opts: {
      team: [ "count"],
-     school: [ "countschool"]
+     school: [ "countschool"],
+     pleb: true
    }
  },
  {
@@ -1048,7 +1076,8 @@ dataSet[dataSetVersion].characterData = [
    img: "SenpaiHotTransp.png",
    opts: {
      team: [ "count"],
-     school: [ "countschool"]
+     school: [ "countschool"],
+     pleb: true
    }
  },
  {
@@ -1056,7 +1085,8 @@ dataSet[dataSetVersion].characterData = [
    img: "Eclair.png",
    opts: {
      team: [ "maginot"],
-     school: [ "maginotschool"]
+     school: [ "maginotschool"],
+     pleb: true
    }
  },
  {
@@ -1064,21 +1094,24 @@ dataSet[dataSetVersion].characterData = [
    img: "Fondue.png",
    opts: {
      team: [ "maginot"],
-     school: [ "maginotschool"]
+     school: [ "maginotschool"],
+     pleb: true
    }
  },
  {
    name: "Galette",
    img: "Galette.png",
    team: [ "maginot"],
-   school: [ "maginotschool"]
+   school: [ "maginotschool"],
+   pleb: true
  },
  {
    name: "Madeleine",
    img: "Madeleine.png",
    opts: {
      team: [ "maginot"],
-     school: [ "maginotschool"]
+     school: [ "maginotschool"],
+     pleb: true
    }
  },
  {
@@ -1086,7 +1119,8 @@ dataSet[dataSetVersion].characterData = [
    img: "Jajka1.png",
    opts: {
      team: [ "bonple"],
-     school: [ "bonpleschool"]
+     school: [ "bonpleschool"],
+     pleb: true
    }
  },
  {
@@ -1094,7 +1128,8 @@ dataSet[dataSetVersion].characterData = [
    img: "UszkaTransparant.png",
    opts: {
      team: [ "bonple"],
-     school: [ "bonpleschool"]
+     school: [ "bonpleschool"],
+     pleb: true
    }
  },
  {
@@ -1102,7 +1137,8 @@ dataSet[dataSetVersion].characterData = [
    img: "Pierogi.png",
    opts: {
      team: [ "bonple"],
-     school: [ "bonpleschool"]
+     school: [ "bonpleschool"],
+     pleb: true
    }
  },
  {
@@ -1110,7 +1146,8 @@ dataSet[dataSetVersion].characterData = [
    img: "Maiko.png",
    opts: {
      team: [ "bonple"],
-     school: [ "bonpleschool"]
+     school: [ "bonpleschool"],
+     pleb: true
    }
  },
  {
@@ -1206,7 +1243,8 @@ dataSet[dataSetVersion].characterData = [
    img: "KikuyoKMM.png",
    opts: {
      team: [ ""],
-     school: [ ""]
+     school: [ ""],
+     pleb: true
    }
  }
 ];
