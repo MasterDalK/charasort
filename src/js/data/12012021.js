@@ -193,7 +193,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "anglerfish"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
    }
  },
  {
@@ -202,7 +202,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "anglerfish"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
    }
  },
  {
@@ -211,7 +211,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "anglerfish"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
    }
  },
  {
@@ -220,7 +220,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "anglerfish"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
    }
  },
  {
@@ -229,7 +229,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "anglerfish"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
    }
  },
  {
@@ -238,7 +238,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "turtle"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
    }
  },
  {
@@ -247,7 +247,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "turtle"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
    }
  },
  {
@@ -256,7 +256,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "turtle"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -265,7 +265,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "hippo"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -274,7 +274,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "hippo"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -283,7 +283,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "hippo"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -292,7 +292,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "hippo"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -301,7 +301,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "rabbit"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -310,7 +310,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "rabbit"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -319,7 +319,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "rabbit"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -328,7 +328,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "rabbit"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -337,7 +337,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "rabbit"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -346,7 +346,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "rabbit"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -355,7 +355,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "duck"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -364,7 +364,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "duck"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -373,7 +373,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "duck"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -382,7 +382,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "duck"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -391,7 +391,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "mallard"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -400,7 +400,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "mallard"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -409,7 +409,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "mallard"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -418,7 +418,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "leopon"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -427,7 +427,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "leopon"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -436,7 +436,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "leopon"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -445,7 +445,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "leopon"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -454,7 +454,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "anteater"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -463,7 +463,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "anteater"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -472,7 +472,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "anteater"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -481,7 +481,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "shark"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -490,7 +490,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "shark"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -499,7 +499,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "shark"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -508,7 +508,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "shark"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -517,7 +517,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ "shark"],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -534,7 +534,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ ""],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
@@ -543,7 +543,7 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [ ""],
      school: [ "ooaraischool"],
-     pleb: true;
+     pleb: true
   }
  },
  {
