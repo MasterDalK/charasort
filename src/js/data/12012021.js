@@ -3,6 +3,12 @@ dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
   {
+    name: "Main Cast Only",
+    key: "pleb",
+    tooltip: "This removes manga & OVA specific characters that aren't as well known.",
+    checked: true
+  },
+  {
     name: "Filter by Team",
     key: "team",
     tooltip: "Check this to restrict to certain fielded teams.",
