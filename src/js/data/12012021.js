@@ -6,7 +6,7 @@ dataSet[dataSetVersion].options = [
     name: "Filter by Team",
     key: "team",
     tooltip: "Check this to restrict to certain fielded teams.",
-    checked: false,,
+    checked: false,
     sub: [
        { name: "Anglerfish Team", key: "anglerfish" },
        { name: "Turtle Team", key: "turtle" },
