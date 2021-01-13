@@ -114,11 +114,6 @@ body {
   align-items: center;
 }
 
-.button:hover {
-  background-color: var(--highlight);
-  color: var(--inverted-text);
-}
-
 .starting.start.button {
   grid-row: span 6;
   display: flex;
@@ -195,9 +190,14 @@ body {
   width: 160px;
 }
 
-@media (hover: hover) {
+@media (hover: hover) and (pointer: fine) {
   .sorter > .image:hover {
     background: var(--highlight);
+  }
+
+  .button:hover {
+    background-color: var(--highlight);
+    color: var(--inverted-text);
   }
 }
 
