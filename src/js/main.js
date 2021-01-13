@@ -189,7 +189,9 @@ function start() {
         });
       }
     } else if (optTaken[index]) {
-      console.log(characterDataToSort[index].opts.pleb);
+      console.log("opttaken: "+ optTaken[index]);
+      console.log("options[index: " + options[index]);
+      console.log("opt " + opt);
       characterDataToSort = characterDataToSort.filter(char => !char.opts[opt.key]);
     }
   });
