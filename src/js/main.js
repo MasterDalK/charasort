@@ -189,7 +189,7 @@ function start() {
         });
       }
     } else if (optTaken[index]) {
-      console.log(characterDataToSort[1].opts.pleb);
+      console.log(characterDataToSort[index].opts.pleb);
       characterDataToSort = characterDataToSort.filter(char => !char.opts[opt.key]);
     }
   });
