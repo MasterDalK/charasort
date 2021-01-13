@@ -189,8 +189,6 @@ function start() {
         });
       }
     } else if (optTaken[index]) {
-      console.log("opttaken: "+ optTaken);
-      console.log(char.opts[opt.key]);
       characterDataToSort = characterDataToSort.filter(char => !char.opts[opt.key]);
     }
   });
