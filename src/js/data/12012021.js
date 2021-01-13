@@ -6,7 +6,7 @@ dataSet[dataSetVersion].options = [
     name: "Filter by Team",
     key: "team",
     tooltip: "Check this to restrict to certain fielded teams.",
-    checked: false,
+    checked: false,,
     sub: [
        { name: "Anglerfish Team", key: "anglerfish" },
        { name: "Turtle Team", key: "turtle" },
@@ -60,7 +60,7 @@ dataSet[dataSetVersion].options = [
     name: "Filter by School",
     key: "school",
     tooltip: "Check this to restrict to certain schools.",
-    checked: false,
+    checked: false,,
     sub: [
        {
          name: "Ooarai Girls Academy",
@@ -138,8 +138,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['anglerfish'],
      school: ['ooaraischool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Saori Takebe",
@@ -147,8 +147,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['anglerfish'],
      school: ['ooaraischool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Hana Isuzu",
@@ -156,8 +156,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['anglerfish'],
      school: ['ooaraischool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Yukari Akiyama",
@@ -165,8 +165,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['anglerfish'],
      school: ['ooaraischool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Mako Reizi",
@@ -174,8 +174,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['anglerfish'],
      school: ['ooaraischool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Anzu Kadotani",
@@ -183,8 +183,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['turtle'],
      school: ['ooaraischool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Momo Kawashima",
@@ -192,8 +192,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['turtle'],
      school: ['ooaraischool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Yuzu Koyama",
@@ -201,8 +201,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['turtle'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Erwin",
@@ -210,8 +210,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['hippo'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Caesar",
@@ -219,8 +219,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['hippo'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Saemonza",
@@ -228,8 +228,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['hippo'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Oryou",
@@ -237,8 +237,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['hippo'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Azusa Sawa",
@@ -246,8 +246,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['rabbit'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Ayumi Yamagou",
@@ -255,8 +255,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['rabbit'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Aya Oono",
@@ -264,8 +264,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['rabbit'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Yuuki Utsugi",
@@ -273,8 +273,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['rabbit'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Karina Sakaguchi",
@@ -282,8 +282,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['rabbit'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Saki Maruyama",
@@ -291,8 +291,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['rabbit'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Noriko Isobe",
@@ -300,8 +300,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['duck'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Taeko Kondou",
@@ -309,8 +309,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['duck'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Shinobu Kawanishi",
@@ -318,8 +318,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['duck'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Akebi Sasaki",
@@ -327,8 +327,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['duck'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Midoriko Sono",
@@ -336,8 +336,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['mallard'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Moyoko Gotou",
@@ -345,8 +345,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['mallard'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Nozomi Konparu",
@@ -354,8 +354,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['mallard'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Satoko Nakajima",
@@ -363,8 +363,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['leopon'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Hoshino",
@@ -372,8 +372,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['leopon'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Suzuki",
@@ -381,8 +381,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['leopon'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Tsuchiya",
@@ -390,8 +390,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['leopon'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Nekota",
@@ -399,8 +399,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['anteater'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Piyotan",
@@ -408,8 +408,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['anteater'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Momoga",
@@ -417,8 +417,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['anteater'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Ogin",
@@ -426,8 +426,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['shark'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Murakami",
@@ -435,8 +435,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['shark'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Cutlass",
@@ -444,8 +444,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['shark'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Flint",
@@ -453,8 +453,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['shark'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Rum",
@@ -462,8 +462,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['shark'],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Taiga Ou",
@@ -471,8 +471,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [''],
      school: ['ooaraischool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Sadoka",
@@ -481,7 +481,7 @@ dataSet[dataSetVersion].characterData = [
      team: [''],
      school: ['ooaraischool'],
      pleb: true
-  }
+  },
  },
  {
    name: "Mazoe",
@@ -490,7 +490,7 @@ dataSet[dataSetVersion].characterData = [
      team: [''],
      school: ['ooaraischool'],
      pleb: true
-  }
+  },
  },
  {
    name: "Darjeeling",
@@ -498,8 +498,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['gloriana'],
      school: ['glorianaschool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Orange Pekoe",
@@ -507,8 +507,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['gloriana'],
      school: ['glorianaschool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Assam",
@@ -516,8 +516,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['gloriana'],
      school: ['glorianaschool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Rukuriri",
@@ -525,8 +525,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['gloriana'],
      school: ['glorianaschool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Nilgiri",
@@ -534,8 +534,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['gloriana'],
      school: ['glorianaschool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Rosehip",
@@ -543,8 +543,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['gloriana'],
      school: ['glorianaschool'],
-     pleb: false
-  }
+     pleb: false,
+  },
  },
  {
    name: "Earl Grey",
@@ -553,7 +553,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['gloriana'],
      school: ['glorianaschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Kay",
@@ -561,8 +561,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['saunders'],
      school: ['saundersschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Alisa",
@@ -570,8 +570,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['saunders'],
      school: ['saundersschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Naomi",
@@ -579,8 +579,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['saunders'],
      school: ['saundersschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Helmet-Chan",
@@ -589,7 +589,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['saunders'],
      school: ['saundersschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Anchovy",
@@ -597,8 +597,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['anzio'],
      school: ['anzioschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Carpaccio",
@@ -606,8 +606,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['anzio'],
      school: ['anzioschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Pepperoni",
@@ -615,8 +615,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['anzio'],
      school: ['anzioschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Amaretto",
@@ -625,7 +625,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['anzio'],
      school: ['anzioschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Katyusha",
@@ -633,8 +633,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['pravda'],
      school: ['pravdaschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Nonna",
@@ -642,8 +642,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['pravda'],
      school: ['pravdaschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Nina",
@@ -651,8 +651,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['pravda'],
      school: ['pravdaschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Alina",
@@ -660,8 +660,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['pravda'],
      school: ['pravdaschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Klara",
@@ -669,8 +669,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['pravda'],
      school: ['pravdaschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Maho Nishizumi",
@@ -678,8 +678,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['kuromormine'],
      school: ['kuromormineschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Erika Itsumi",
@@ -687,8 +687,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['kuromormine'],
      school: ['kuromormineschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Koume Akaboshi",
@@ -696,8 +696,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['kuromormine'],
      school: ['kuromormineschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Emi Kojima",
@@ -706,7 +706,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['kuromormine'],
      school: ['kuromormineschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Geshiko",
@@ -715,7 +715,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['kuromormine'],
      school: ['kuromormineschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Sangou",
@@ -724,7 +724,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['kuromormine'],
      school: ['kuromormineschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Mauko",
@@ -733,7 +733,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['kuromormine'],
      school: ['kuromormineschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Leila Rou",
@@ -742,7 +742,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['kuromormine'],
      school: ['kuromormineschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Sheska",
@@ -751,7 +751,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['kuromormine'],
      school: ['kuromormineschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Kinuyo Nishi",
@@ -759,8 +759,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['chihatan'],
      school: ['chihatanschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Fukuda",
@@ -768,8 +768,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['chihatan'],
      school: ['chihatanschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Haru Tamada",
@@ -777,8 +777,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['chihatan'],
      school: ['chihatanschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Hosomi",
@@ -786,8 +786,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['chihatan'],
      school: ['chihatanschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Nagura",
@@ -795,8 +795,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['chihatan'],
      school: ['chihatanschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Hamada",
@@ -804,8 +804,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['chihatan'],
      school: ['chihatanschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Teramoto",
@@ -813,8 +813,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['chihatan'],
      school: ['chihatanschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Ikeda",
@@ -822,8 +822,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['chihatan'],
      school: ['chihatanschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Kubota",
@@ -831,8 +831,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['chihatan'],
      school: ['chihatanschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Nishihara",
@@ -840,8 +840,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['chihatan'],
      school: ['chihatanschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Mika",
@@ -849,8 +849,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['finland'],
      school: ['finlandschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Aki",
@@ -858,8 +858,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['finland'],
      school: ['finlandschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Mikko",
@@ -867,8 +867,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['finland'],
      school: ['finlandschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Alice Shimada",
@@ -876,8 +876,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['allstars'],
      school: [''],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Azumi",
@@ -885,8 +885,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['allstars'],
      school: [''],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Megumi",
@@ -894,8 +894,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['allstars'],
      school: [''],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Rumi",
@@ -903,8 +903,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['allstars'],
      school: [''],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Marie",
@@ -912,8 +912,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['bcfreedom'],
      school: ['bcfreedomschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Andou",
@@ -921,8 +921,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['bcfreedom'],
      school: ['bcfreedomschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Oshida",
@@ -930,8 +930,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['bcfreedom'],
      school: ['bcfreedomschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Asparagus",
@@ -940,7 +940,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['bcfreedom'],
      school: ['bcfreedomschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Emi Nakasuga",
@@ -949,7 +949,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['bellwall'],
      school: ['bellwallschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Hitomi Yuzumoto",
@@ -958,7 +958,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['bellwall'],
      school: ['bellwallschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Kita",
@@ -967,7 +967,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['bellwall'],
      school: ['bellwallschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Takami",
@@ -976,7 +976,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['bellwall'],
      school: ['bellwallschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Nagisa Shiratori",
@@ -985,7 +985,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['bellwall'],
      school: ['bellwallschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Neko Yamamori",
@@ -994,7 +994,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['bellwall'],
      school: ['bellwallschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Chifuyu Doi",
@@ -1003,7 +1003,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['bellwall'],
      school: ['bellwallschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Youko Minami",
@@ -1012,7 +1012,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['bellwall'],
      school: ['bellwallschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Kashiwaba Sisters",
@@ -1021,7 +1021,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['bellwall'],
      school: ['bellwallschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Shizuka Tsuruki",
@@ -1030,7 +1030,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['tatenashi'],
      school: ['tatenashischool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Rin Matsukaze",
@@ -1039,7 +1039,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['tatenashi'],
      school: ['tatenashischool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Haruka Endou",
@@ -1047,8 +1047,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['tatenashi'],
      school: ['tatenashischool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Noemi Kohiyama",
@@ -1057,7 +1057,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['count'],
      school: ['countschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Anna Masukura",
@@ -1066,7 +1066,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['count'],
      school: ['countschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Nachigami Sisters",
@@ -1075,7 +1075,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['count'],
      school: ['countschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Marina Constantinescu",
@@ -1084,7 +1084,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['count'],
      school: ['countschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Mizuki Ikarashi",
@@ -1093,7 +1093,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['count'],
      school: ['countschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Witch Senpai",
@@ -1102,7 +1102,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['count'],
      school: ['countschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Éclair",
@@ -1111,7 +1111,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['maginot'],
      school: ['maginotschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Fondue",
@@ -1120,14 +1120,16 @@ dataSet[dataSetVersion].characterData = [
      team: ['maginot'],
      school: ['maginotschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Galette",
    img: "Galette.png",
-   team: ['maginot'],
-   school: ['maginotschool'],
-   pleb: true
+   opts: {
+     team: ['maginot'],
+     school: ['maginotschool'],
+     pleb: true
+   },
  },
  {
    name: "Madeleine",
@@ -1136,7 +1138,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['maginot'],
      school: ['maginotschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Jajka",
@@ -1145,7 +1147,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['bonple'],
      school: ['bonpleschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Uszka",
@@ -1154,7 +1156,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['bonple'],
      school: ['bonpleschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Pierogi",
@@ -1163,7 +1165,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['bonple'],
      school: ['bonpleschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "Maiko",
@@ -1172,7 +1174,7 @@ dataSet[dataSetVersion].characterData = [
      team: ['bonple'],
      school: ['bonpleschool'],
      pleb: true
-   }
+   },
  },
  {
    name: "El",
@@ -1180,8 +1182,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['blue'],
      school: ['blueschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Tristana",
@@ -1189,8 +1191,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['blue'],
      school: ['blueschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Viridiana",
@@ -1198,8 +1200,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['blue'],
      school: ['blueschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Wallaby",
@@ -1207,8 +1209,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['koala'],
      school: ['koalaschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Platypus",
@@ -1216,8 +1218,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: ['koala'],
      school: ['koalaschool'],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Ami Chōno",
@@ -1225,8 +1227,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [''],
      school: [''],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Shiho Nishizumi",
@@ -1234,8 +1236,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [''],
      school: [''],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Chiyo Shimada",
@@ -1243,8 +1245,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [''],
      school: [''],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Kanon Sasagawa",
@@ -1252,8 +1254,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [''],
      school: [''],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Remi Takashima",
@@ -1261,8 +1263,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [''],
      school: [''],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Hibiki Inatomi",
@@ -1270,8 +1272,8 @@ dataSet[dataSetVersion].characterData = [
    opts: {
      team: [''],
      school: [''],
-     pleb: false
-   }
+     pleb: false,
+   },
  },
  {
    name: "Kikuyo Idegami",
@@ -1280,6 +1282,6 @@ dataSet[dataSetVersion].characterData = [
      team: [''],
      school: [''],
      pleb: true
-   }
+   },
  }
 ];
