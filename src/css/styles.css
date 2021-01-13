@@ -195,8 +195,10 @@ body {
   width: 160px;
 }
 
-.sorter > .image:hover {
-  background: var(--highlight);
+@media (hover: hover) {
+  .sorter > .image:hover {
+    background: var(--highlight);
+  }
 }
 
 .sorter > .text {
