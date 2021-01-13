@@ -60,7 +60,7 @@ dataSet[dataSetVersion].options = [
     name: "Filter by School",
     key: "school",
     tooltip: "Check this to restrict to certain schools.",
-    checked: false,,
+    checked: false,
     sub: [
        {
          name: "Ooarai Girls Academy",
