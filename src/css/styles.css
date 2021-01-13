@@ -1,5 +1,6 @@
 :root {
   --text: #000;
+  --inverted-text: #FFF;
   --secondary-text: #5c3f08;
   --highlight: #2eb063;
   --progress: #009e13;
@@ -20,24 +21,34 @@ body {
 
 .progress {
   margin: 1em auto;
-  width: 500px;
+  width: 600px;
   display: none;
+}
+
+.progressbar,
+.progresstext {
+  width: 557px;
 }
 
 .progressbar {
   position: relative;
-  width: 492px;
   border: 1px solid var(--highlight);
+  background: var(--secondary-text);
   padding: 3px;
   margin: 2px 0px;
 }
 
 .progresstext {
+  color: var(--inverted-text);
   position: absolute;
-  width: 492px;
   margin: 3px 0px;
   text-align: center;
   font-size: 0.7em;
+}
+
+.battleWrapper {
+  text-align: center;
+  width: 560px;
 }
 
 .progressfill {
@@ -46,20 +57,40 @@ body {
   width: 0%;
 }
 
+.battleBig {
+  position: absolute;
+  width: 460px;
+  height: 120px;
+  font-size: 110px;
+  font-weight: bold;
+  font-style: italic;
+  z-index: -1;
+  opacity: 0.7;
+  top: -2%;
+}
+
 .sorter {
   margin: 0px auto;
   display: grid;
-  grid-template-columns: 120px 1fr 120px;
+  grid-template-columns: 80px 80px;
   grid-gap: 5px;
-  width: 420px;
+  width: 600px;
 }
 
 .button {
   border: 1px solid var(--highlight);
   text-align: center;
-  padding: 10%;
-  grid-column: 2 / 3;
+  padding: 10px;
+  grid-column: 3 / 6;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  background-color: var(--highlight);
+  color: var(--inverted-text);
 }
 
 .starting.start.button {
@@ -81,6 +112,11 @@ body {
 .loading.button {
   grid-row: span 6;
   display: none;
+}
+
+.loading:hover {
+  background: none;
+  color: var(--text);
 }
 
 .loading.button > div {
@@ -121,19 +157,28 @@ body {
 }
 
 .sorter > .image {
-  width: 120px;
-  height: 180px;
-  margin: auto;
+  height: 220px;
   grid-row: 1 / 7;
   cursor: pointer;
   object-fit: cover;
   object-position: top;
 }
 
+.sorter > .image,
 .sorter > .text {
-  width: 120px;
-  height: 60px;
+  width: 160px;
+}
+
+.sorter > .image:hover {
+  background: var(--highlight);
+}
+
+.sorter > .text {
+  height: 40px;
   display: none;
+  color: var(--secondary-text);
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .sorter > .text > p {
@@ -152,7 +197,7 @@ body {
 }
 
 .sorter > .right {
-  grid-column: 3 / 4;
+  grid-column: 6 / 7;
   border: 1px solid var(--highlight);
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
@@ -212,6 +257,7 @@ label:hover {
   display: none;
   text-align: center;
   font-size: 0.75em;
+  font-style: italic;
 }
 
 .results {
@@ -259,11 +305,11 @@ label:hover {
 
 .result.spacer {
   height: 1px;
-  background-color: #000;
+  background-color: var(--highlight);
 }
 
 .result.head {
-  background-color: #000;
+  background-color: var(--highlight);
   color: #FFF;
 }
 
@@ -280,6 +326,7 @@ label:hover {
 
 .result.image > .left span {
   position: absolute;
+  font-size: 20px;
   top: 50%;
   right: 3px;
   margin-top: -0.375em;
@@ -289,8 +336,18 @@ label:hover {
   width: 160px;
   padding: 1px 0em 1px 0em;
   grid-column: 2 / 3;
-  border-left: 1px solid #000;
-  text-align: center;
+  border-left: 1px solid var(--highlight);
+}
+
+.resultCharacterName {
+  background: linear-gradient(90deg, var(--highlight) 0%, rgba(48,49,57,0) 100%);
+  padding: 1px 0px;
+  color: var(--inverted-text);
+}
+
+.resultCharacterName span,
+.right span {
+  padding-left: 5px;
 }
 
 .info {
@@ -303,16 +360,13 @@ label:hover {
 }
 
 a {
-  color: #990000;
+  color: var(--secondary-text);
   font-weight: bold;
   text-decoration: none;
   cursor: pointer;
 }
 
 a:hover {
-  color: #FF6600;
-}
-
-a:visited {
-  color: #6600FF;
+  color: var(--highlight);
+  text-decoration: underline;
 }

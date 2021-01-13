@@ -124,7 +124,7 @@ function init() {
     document.querySelector('.starting.load.button > span').insertAdjacentText('beforeend', storedSaveType);
     document.querySelectorAll('.starting.button').forEach(el => {
       el.style['grid-row'] = 'span 3';
-      el.style.display = 'block';
+      el.style.display = 'flex';
     });
   }
 
@@ -266,8 +266,9 @@ function start() {
 
   preloadImages().then(() => {
     loading = false;
+    document.querySelector('.options').style.display = 'none';
     document.querySelector('.loading.button').style.display = 'none';
-    document.querySelectorAll('.sorting.button').forEach(el => el.style.display = 'block');
+    document.querySelectorAll('.sorting.button').forEach(el => el.style.display = 'flex');
     document.querySelectorAll('.sort.text').forEach(el => el.style.display = 'block');
     display();
   });
@@ -459,6 +460,7 @@ function recordData(sortType) {
  */
 function progressBar(indicator, percentage) {
   document.querySelector('.progressbattle').innerHTML = indicator;
+  document.querySelector('.battleBig').innerHTML = indicator.split(" ")[2];
   document.querySelector('.progressfill').style.width = `${percentage}%`;
   document.querySelector('.progresstext').innerHTML = `${percentage}%`;
 }
@@ -469,7 +471,7 @@ function progressBar(indicator, percentage) {
  * @param {number} [imageNum=3] Number of images to display. Defaults to 3.
  */
 function result(imageNum = 3) {
-  document.querySelectorAll('.finished.button').forEach(el => el.style.display = 'block');
+  document.querySelectorAll('.finished.button').forEach(el => el.style.display = 'flex');
   document.querySelector('.image.selector').style.display = 'block';
   document.querySelector('.time.taken').style.display = 'block';
 
@@ -483,7 +485,7 @@ function result(imageNum = 3) {
   const imgRes = (char, num) => {
     const charName = reduceTextWidth(char.name, 'Arial 12px', 160);
     const charTooltip = char.name !== charName ? char.name : '';
-    return `<div class="result image"><div class="left"><span>${num}</span></div><div class="right"><img src="${char.img}"><div><span title="${charTooltip}">${charName}</span></div></div></div>`;
+    return `<div class="result image"><div class="left"><span>${num}</span></div><div class="right"><img src="${char.img}"><div class="resultCharacterName"><span title="${charTooltip}">${charName}</span></div></div></div>`;
   }
   const res = (char, num) => {
     const charName = reduceTextWidth(char.name, 'Arial 12px', 160);
