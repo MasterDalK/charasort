@@ -190,8 +190,8 @@ function start() {
       }
     } else if (optTaken[index]) {
       console.log("opttaken: "+ optTaken[index]);
-      console.log("options[index: " + options[index]);
-      console.log("opt " + opt);
+      console.log(options[index]);
+      console.log(opt);
       characterDataToSort = characterDataToSort.filter(char => !char.opts[opt.key]);
     }
   });
