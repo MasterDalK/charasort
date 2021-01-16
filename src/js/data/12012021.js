@@ -49,10 +49,6 @@ dataSet[dataSetVersion].options = [
        {
          name: "Koala Forest Academy",
          key: "koala"
-       },
-       {
-         name: "Japan Sensha-Dō Federation",
-         key: "senshado"
        }
       ]
   },

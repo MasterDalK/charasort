@@ -471,14 +471,17 @@ function progressBar(indicator, percentage) {
  * @param {number} [imageNum=3] Number of images to display. Defaults to 3.
  */
 function result(imageNum = 3) {
-  document.querySelectorAll('.finished.button').forEach(el => el.style.display = 'flex');
+  document.querySelectorAll('.finished').forEach(el => el.style.display = 'flex');
   document.querySelector('.image.selector').style.display = 'block';
   document.querySelector('.time.taken').style.display = 'block';
+  document.querySelector('#twitter').style.height = '30px';
 
   document.querySelectorAll('.sorting.button').forEach(el => el.style.display = 'none');
   document.querySelectorAll('.sort.text').forEach(el => el.style.display = 'none');
   document.querySelector('.options').style.display = 'none';
   document.querySelector('.info').style.display = 'none';
+
+  saveProgress('results');
 
   const header = '<div class="result head"><div class="left">Order</div><div class="right">Name</div></div>';
   const timeStr = `This sorter was completed on ${new Date(timestamp + timeTaken).toString()} and took ${msToReadableTime(timeTaken)}. <a href="${location.protocol}//${sorterURL}">Do another sorter?</a>`;
@@ -558,8 +561,13 @@ function saveProgress(saveType) {
   localStorage.setItem(`${sorterURL}_saveData`, saveData);
   localStorage.setItem(`${sorterURL}_saveType`, saveType);
 
-  if (saveType !== 'Autosave') {
-    const saveURL = `${location.protocol}//${sorterURL}?${saveData}`;
+  const saveURL = `${location.protocol}//${sorterURL}?${saveData}`;
+
+  if (saveType === 'results') {
+    LoadTweetButton(saveURL);
+  }
+
+  if (saveType !== 'Autosave' && saveType !== 'results') {
     const inProgressText = 'You may click Load Progress after this to resume, or use this URL.';
     const finishedText = 'You may use this URL to share this result, or click Load Last Result to view it again.';
 
@@ -833,6 +841,18 @@ function reduceTextWidth(text, font, width) {
     }
     return reducedText + '..';
   }
+}
+
+function LoadTweetButton(saveURL) {
+  let now = Date.now();
+  let location = encodeURIComponent(window.location.href);
+  document.querySelector('#twitter').innerHTML = '<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="I just sorted through the Girls Und Panzer characters!" data-hashtags="GuPSorter" data-lang="en" data-dnt="true" data-url="' + saveURL + '" data-show-count="false">Tweet</a>';
+
+  var head= document.getElementsByTagName('head')[0];
+  var script= document.createElement('script');
+  script.src= 'https://platform.twitter.com/widgets.js';
+  script.setAttribute('async', '');
+  head.appendChild(script);
 }
 
 window.onload = init;
